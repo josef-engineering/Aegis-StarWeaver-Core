@@ -1,2 +1,19 @@
-.DS_Store
-*.meta
+# Ignore specific "garbage" scripts
+AndroidLockPattern.cs
+AutoRotate.cs
+BackgroundGridSpawner.cs
+puRCHSE.cs
+
+# Ignore Unity's temporary folders
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Ll]ibrary/
+
+# --- Personal Cleanup ---
+AndroidLockPattern.cs
+AutoRotate.cs
+BackgroundGridSpawner.cs
+puRCHSE.cs
+Temp/
+Debug/
